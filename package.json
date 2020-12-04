@@ -7,5 +7,18 @@
     "start": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgsheppa/coding-challenges.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jgsheppa/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/jgsheppa/coding-challenges#readme",
+  "description": ""
 }

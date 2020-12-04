@@ -22,3 +22,28 @@ function meanderingOrder(unsorted) {
 
 unsorted1 = [2, -1, 2, 30, 8, -5, 15, 4];
 console.log(meanderingOrder(unsorted1));
+
+// Two Sum problem from Leetcode
+//Given an array of integers nums and an integer target, return indices
+//of the two numbers such that they add up to target.
+
+//You may assume that each input would have exactly one solution,
+// and you may not use the same element twice.
+
+// You can return the answer in any order.
+
+const exampleNums = [3, 2, 4];
+const exampleTarget = 6;
+
+function twoSum(nums, target) {
+  const numArray = [];
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = 0; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target && i !== j) {
+        numArray.push(i);
+        numArray.push(j);
+        return numArray;
+      }
+    }
+  }
+}
